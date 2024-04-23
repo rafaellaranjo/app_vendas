@@ -33,7 +33,8 @@ Siga estas instruções para configurar e executar a aplicação:
 
 Para iniciar o servidor de desenvolvimento, execute o seguinte comando na pasta do projeto:
 
+1. Execute o servidor
     ```bash
-   npm run dev
+    npm run dev
 
 Isso iniciará o servidor de desenvolvimento e abrirá a aplicação no seu navegador padrão. A partir daí, você pode começar a trabalhar na aplicação e visualizar as mudanças em tempo real.
