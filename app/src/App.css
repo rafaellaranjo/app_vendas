@@ -1,0 +1,36 @@
+.App {
+    background-color: #454545;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 40vh;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list_item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col {
+    float: left;
+    width: 50%; /* Por padrão, cada coluna ocupará metade do contêiner */
+    box-sizing: border-box;
+    padding: 0 10px; /* Adiciona espaço entre as colunas */
+}
+
+.modal-title {
+    color: #454545 !important;
+}
